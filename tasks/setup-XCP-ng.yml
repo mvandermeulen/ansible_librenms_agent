@@ -1,0 +1,6 @@
+---
+
+- name: Install xcp-ng-release
+  yum:
+    name: "xcp-ng-release"
+    state: present
